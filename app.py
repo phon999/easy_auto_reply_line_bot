@@ -75,7 +75,7 @@ food_list = ['กระดูกอ่อนตุ๋นไชเท้ายา
 app = Flask(__name__)
 @app.route("/")
 def hello():
-    return "Hello Guys!"
+    return "Hello Guys2!"
 
 
 @app.route("/webhook", methods=['GET','POST'])
