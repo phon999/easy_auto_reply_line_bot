@@ -14,8 +14,8 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-channel_secret = 'e03b6ab892f98d9e35000187a87987a6'
-channel_access_token = '7Qm9ky2ZN5SCTfoEip4I8mddUkmYubqC0tw3emoeATzHSn8njDqpRjfD5tFmOnZ7mdzI3w81eu3IIdyb96q+z5EsMFKdxCOfSJ4uVEkK7arXpbJkPItOE6HLqw+sDLttRvScCPWV485Y9fPkyd7ZOgdB04t89/1O/w1cDnyilFU='
+channel_secret = '3b20a68e74a5b9dba9089f5f127f944b'
+channel_access_token = '7j3rGP14CP2j4mzZr/vMJ5GHxfv9vCUr2L11lHy2fJnISNbGH2uEspUpQXqK4l66f4juHiO+uzLeQmjGapWHh4ajYaSzjDDZ6JdZ8ACbzNjVBnwnIt+nsmOKXajbesRMQaGuxgxp/rSRlBxl859FTAdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
 food_list = ['กระดูกอ่อนตุ๋นไชเท้ายาจีน',
